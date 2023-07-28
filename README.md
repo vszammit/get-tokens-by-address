@@ -13,7 +13,7 @@ Before running the script, ensure that you have [Node.js](https://docs.npmjs.com
 Follow these steps to run the script:
 
 1. Clone this repository to your local machine:
-`git clone `
+`git clone https://github.com/vszammit/get-tokens-by-address.git`
 
 
 2. Navigate to the project folder: `cd get-tokens-by-address`
@@ -42,5 +42,5 @@ When working with the Alchemy SDK, there are several options and best practices 
 ### Pagination
 By default, the request for tokens has a page size of 100. If you have a large number of tokens and want to retrieve all of them, you can implement pagination. Alchemy's API supports pagination using the `page` and `size` parameters. You can adjust the `size` parameter to specify the number of tokens to retrieve per page and use the `page` parameter to iterate through the pages of results.
 
-### Filtering and Excluding NFTs
+### Filtering and Excluding Tokens
 The Alchemy API allows you to apply filters to your token requests. For example, you can exclude certain tokens based on specific criteria. The exact filtering options depend on the available fields and operators supported by Alchemy's API. Please refer to the linked API reference doc above for more information on how to apply filters to your requests.
